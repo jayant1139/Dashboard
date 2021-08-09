@@ -1,0 +1,113 @@
+
+*{
+    padding: 0;;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* .main{
+    display: flex;
+    justify-content: center;
+    
+    align-content: center;
+    flex-direction: column;
+} */
+.wrap{
+    background-color: #f0f0f0;
+    width: 100vw;
+    height: 100vh;
+}
+.board{
+    
+        display: flex;
+        /* width: 60%; */
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        /* margin-top: 200px; */
+    background-color: #f0f0f0;
+    
+}
+.board button{
+    margin:10px 10px 10px 10px;
+    border-radius: 20px;
+    
+    font-size:large;
+    background-color: #ffff;
+}
+.board button:nth-child(1){
+    padding:8px 35px 8px 35px;
+}
+.board button:nth-child(2){
+    padding:8px 40px 8px 40px;
+}
+.board button:nth-child(3){
+    padding:8px 15px 8px 15px;
+}
+.board button:nth-child(4){
+    padding:8px 40px 8px 40px;
+}
+.board button:nth-child(5){
+    padding:8px 10px 8px 10px;
+}
+
+
+
+.container{
+    
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    align-content: normal;
+
+}
+.board-container{
+   
+        display: flex;
+   
+        justify-content: center;
+        align-items: center;
+        align-content: normal;
+       
+}
+.board-container button{
+    background-color: #ffff;
+    margin:10px;
+    border-radius:20px;
+    padding:8px 15px 8px 15px;
+    font-size:medium;
+    z-index: 1;
+}
+.board-container button:hover{
+    background-color:#f58000;
+    color: #ffff;
+}
+.classes{
+    padding-top: 20px;
+    padding-bottom: 10px;
+        display: flex;
+      width:60%;
+        flex-wrap: wrap;
+        justify-content:center;
+        background-color: #ffff;
+        margin-top: 5px;
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+}
+#div2,#div3,#div4,#div5{
+   display:none;
+}
+#cbse{
+    background-color:#1e80c4;
+    color: #ffff;
+}
+.down-arrow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
